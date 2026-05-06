@@ -47,23 +47,28 @@
 
 ### 1️⃣ Клонировать репозиторий
 
-bash
 git clone https://github.com/lelkovb-hub/ui-autotests-python.git
 cd ui-autotests-python
+
 ### 2️⃣ Установить зависимости
-bash
+
 pip install -r requirements.txt
+
 ### 3️⃣ Запустить все тесты
-bash
+
 pytest -v
+
 ### 4️⃣ Сгенерировать и открыть Allure‑отчёт
-bash
+
 pytest --alluredir=allure-results
 allure serve allure-results
-After running allure serve, the report will open automatically in your default browser.
 
-📁 Структура проекта
-text
+После выполнения `allure serve` отчёт автоматически откроется в браузере по умолчанию.
+
+---
+
+## 📁 Структура проекта
+
 ui-autotests-python/
 ├── pages/               # Page Object classes
 ├── tests/               # Test files
@@ -74,38 +79,48 @@ ui-autotests-python/
 ├── requirements.txt     # Dependencies
 ├── BUG_REPORT.md        # Bug report
 └── bug_promo_reuse.png  # Screenshot for a specific bug
-🛠 Использованные технологии
-Технология	Назначение
-Python 3.10	Язык программирования
-Selenium WebDriver	Управление браузером
-Pytest	Тестовый фреймворк
-Allure	Визуальные отчёты (настроен, отчёты работают)
-Page Object Model	Паттерн организации кода
-Flake8	Линтер (проверка стиля кода)
-webdriver-manager	Автоматическое управление драйверами
-Git	Контроль версий
-📈 Отчёты
-Allure генерирует детальные визуальные отчёты с графиками, шагами тестов, скриншотами и логами.
-Команда allure serve allure-results открывает отчёт в браузере.
 
-📝 Что можно улучшить
-HTML‑отчёты (pytest‑html)
+---
 
-Настройка Allure (работает)
+## 🛠 Использованные технологии
 
-Параллельный запуск тестов (pytest‑xdist)
+| Технология | Назначение |
+|------------|------------|
+| Python 3.10 | Язык программирования |
+| Selenium WebDriver | Управление браузером |
+| Pytest | Тестовый фреймворк |
+| Allure | Визуальные отчёты (настроен, отчёты работают) |
+| Page Object Model | Паттерн организации кода |
+| Flake8 | Линтер (проверка стиля кода) |
+| webdriver-manager | Автоматическое управление драйверами |
+| Git | Контроль версий |
 
-Интеграция с CI/CD (GitHub Actions)
+---
 
-API‑тесты для бэкенда
+## 📈 Отчёты
 
-📬 Контакты
-Борис Лельков
+Allure генерирует детальные визуальные отчёты с графиками, шагами тестов, скриншотами и логами.  
+Команда `allure serve allure-results` открывает отчёт в браузере.
 
-Telegram: @Boris80lb
+---
 
-Email: lelkovb@gmail.com
+## 📝 Что можно улучшить
 
-GitHub: lelkovb-hub
+- HTML‑отчёты (pytest‑html)
+- Настройка Allure (работает)
+- Параллельный запуск тестов (pytest‑xdist)
+- Интеграция с CI/CD (GitHub Actions)
+- API‑тесты для бэкенда
 
-Проект выполнен в рамках обучения в Skillbox.
+---
+
+## 📬 Контакты
+
+**Борис Лельков**  
+- Telegram: [@Boris80lb](https://t.me/Boris80lb)  
+- Email: [lelkovb@gmail.com](mailto:lelkovb@gmail.com)  
+- GitHub: [lelkovb-hub](https://github.com/lelkovb-hub)
+
+---
+
+*Проект выполнен в рамках обучения в Skillbox.*
