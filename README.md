@@ -60,7 +60,7 @@ pytest -v
 
 ### 4️⃣ Сгенерировать и открыть Allure‑отчёт
 
-pytest --alluredir=allure-results
+pytest --alluredir=allure-results     
 allure serve allure-results
 
 После выполнения `allure serve` отчёт автоматически откроется в браузере по умолчанию.
