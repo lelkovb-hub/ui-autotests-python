@@ -47,7 +47,7 @@
 
 ### 1️⃣ Клонировать репозиторий
 
-git clone https://github.com/lelkovb-hub/ui-autotests-python.git
+git clone https://github.com/lelkovb-hub/ui-autotests-python.git     
 cd ui-autotests-python
 
 ### 2️⃣ Установить зависимости
