@@ -60,7 +60,7 @@ pytest -v
 
 ### 4️⃣ Сгенерировать и открыть Allure‑отчёт
 
-pytest --alluredir=allure-results
+pytest --alluredir=allure-results     
 allure serve allure-results
 
 После выполнения `allure serve` отчёт автоматически откроется в браузере по умолчанию.
@@ -68,17 +68,18 @@ allure serve allure-results
 ---
 
 ## 📁 Структура проекта
-
+```
 ui-autotests-python/
-├── pages/               # Page Object classes
-├── tests/               # Test files
-├── reports/             # HTML reports (if any)
-├── logs/                # Log files
-├── conftest.py          # Pytest fixtures (driver, setup/teardown)
-├── pytest.ini           # Pytest configuration
-├── requirements.txt     # Dependencies
-├── BUG_REPORT.md        # Bug report
-└── bug_promo_reuse.png  # Screenshot for a specific bug
+├── pages/                  # Page Object classes
+├── tests/                  # Test files
+├── reports/                # HTML reports (if any)
+├── logs/                   # Log files
+├── conftest.py             # Pytest fixtures (driver, setup/teardown)
+├── pytest.ini              # Pytest configuration
+├── requirements.txt        # Dependencies
+├── BUG_REPORT.md           # Bug report
+└── bug_promo_reuse.png     # Screenshot for a specific bug
+```
 
 ---
 
