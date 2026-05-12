@@ -121,6 +121,7 @@ Allure генерирует детальные визуальные отчёты
 - Telegram: [@Boris80lb](https://t.me/Boris80lb)  
 - Email: [lelkovb@gmail.com](mailto:lelkovb@gmail.com)  
 - GitHub: [lelkovb-hub](https://github.com/lelkovb-hub)
+- [Telephone] +998 94 511-32-07
 
 ---
 
